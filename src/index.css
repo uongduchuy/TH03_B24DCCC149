@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+.container { max-width: 1000px; margin: 0 auto; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.card { border: 1px solid #ddd; padding: 10px; border-radius: 6px; }
+.actions { display:flex; gap:8px; margin-top:8px; }
+.filter-bar { display:flex; gap:8px; margin:10px 0; align-items:center; }
+.pagination { display:flex; gap:6px; margin-top:10px; }
+.error { color: red; font-size: 12px; }
